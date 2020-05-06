@@ -1,6 +1,18 @@
 const urls = require("./urls-mapping.js");
 
 module.exports = {
+  plugins: [
+    ['container', {
+      type: 'warning',
+      before: info => `<div class="warning custom-block"><p class="custom-block-title">${info}</p>`,
+      after: '</div>',
+    }],
+    ['container', {
+      type: 'tip',
+      before: info => `<div class="tip custom-block"><p class="custom-block-title">${info}</p>`,
+      after: '</div>',
+    }],
+  ],
   configureWebpack: {
     resolve: {
       alias: {
