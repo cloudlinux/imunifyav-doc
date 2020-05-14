@@ -12,6 +12,11 @@ module.exports = {
       before: info => `<div class="tip custom-block"><p class="custom-block-title">${info}</p>`,
       after: '</div>',
     }],
+    ['container', {
+      type: 'danger',
+      before: info => `<div class="danger custom-block"><p class="custom-block-title">${info}</p>`,
+      after: '</div>',
+    }],
     ['disqus', { shortname: 'cldocs' }],
     ['@vuepress/google-analytics',
       {
