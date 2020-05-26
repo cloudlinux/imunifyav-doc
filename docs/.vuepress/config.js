@@ -1,5 +1,14 @@
 const urls = require("./urls-mapping.js");
 
+// set your global autometa options
+const autoMetaOptions = {
+  site: {
+    name   : 'ImunifyAV docs',
+    // twitter: 'im_av_docs',
+  },
+  canonical_base: 'https://docs.imunifyav.com/',
+};
+
 module.exports = {
   plugins: [
     ['container', {
@@ -22,7 +31,8 @@ module.exports = {
       {
         'ga': 'UA-12711721-12'
       }
-    ]
+    ],
+    [ 'autometa', autoMetaOptions ]
   ],
   configureWebpack: {
     resolve: {
