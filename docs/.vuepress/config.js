@@ -3,7 +3,7 @@ const urls = require("./urls-mapping.js");
 // set your global autometa options
 const autoMetaOptions = {
   site: {
-    name   : 'ImunifyAV docs',
+    name   : 'ImunifyAV Documentation',
     // twitter: 'im_av_docs',
   },
   canonical_base: 'https://docs.imunifyav.com/',
