@@ -84,7 +84,7 @@ imunify-antivirus add-sudouser 11XXX111
 ```
 
 
-## Сheckdb
+## Checkdb
 
 Checks database integrity. In case database is corrupt, then this command saves backup copy of the database at `/var/imunifyav` and tries to restore integrity of the original database.
 
@@ -286,8 +286,6 @@ imunify-antivirus hook list
 
 
 ## Malware
-
-</div>
 
 Allows to manage malware options.
 
