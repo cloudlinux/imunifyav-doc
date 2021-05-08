@@ -4564,9 +4564,9 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
 lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.5:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loglevel@^1.6.6:
   version "1.6.8"
@@ -7425,11 +7425,6 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-disqus-spa@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/vue-disqus-spa/-/vue-disqus-spa-0.1.0.tgz#8a42d50ddbe8f0c30298a3860a2fb3dc246209e1"
-  integrity sha512-JWM/gdAskBsBE6inKG1vudHN/L4tsJsIivbt7SBTHhvv3WNocPMZSZi2SA5NN0p1NI7VZDjX/7usvsF9eWKGpg==
-
 vue-hot-reload-api@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.1.tgz#b2d3d95402a811602380783ea4f566eb875569a2"
@@ -7551,14 +7546,6 @@ vuepress-plugin-container@^2.0.2, vuepress-plugin-container@^2.1.0:
   integrity sha512-5bTtt8PKu9edNoc2Op/sRhCynjT+xKO/VuqwH7ftjdwNZUZMl/ymga7L+5lXCWNOLYAzRHaZAyYV5tY/97cl5g==
   dependencies:
     markdown-it-container "^2.0.0"
-
-vuepress-plugin-disqus-spa@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-disqus-spa/-/vuepress-plugin-disqus-spa-0.1.1.tgz#ee511152687ab229f33e11c4e01f563b791e5402"
-  integrity sha512-s+EsevV4XZMdHvFWxKsBH6ISMvpDsq6ifzOZ7N2na1pHjNONLwI2SVh2QWlDCQJmm7lSCZ2PclMgjzHZi+PtcA==
-  dependencies:
-    jquery "^3.5.1"
-    vue-disqus-spa "^0.1.0"
 
 vuepress-plugin-separate-pages@^0.1.4:
   version "0.1.4"
