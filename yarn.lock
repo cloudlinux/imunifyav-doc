@@ -1424,6 +1424,7 @@ are-we-there-yet@~1.1.2:
 argparse@^1.0.7:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
+  integrity sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   dependencies:
     sprintf-js "~1.0.2"
 
@@ -3008,6 +3009,7 @@ eslint-scope@^4.0.0:
 esprima@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
+  integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
 esrecurse@^4.1.0:
   version "4.2.1"
@@ -4293,17 +4295,10 @@ jquery@^3.5.1:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
 
-js-yaml@^3.11.0, js-yaml@^3.9.0:
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.1.tgz#295c8632a18a23e054cf5c9d3cecafe678167600"
-  dependencies:
-    argparse "^1.0.7"
-    esprima "^4.0.0"
-
-js-yaml@^3.13.1:
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
-  integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
+js-yaml@^3.11.0, js-yaml@^3.13.1, js-yaml@^3.9.0:
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
+  integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -6722,6 +6717,7 @@ split-string@^3.0.1, split-string@^3.0.2:
 sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+  integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
 sshpk@^1.7.0:
   version "1.16.1"
@@ -7425,11 +7421,6 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-disqus-spa@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/vue-disqus-spa/-/vue-disqus-spa-0.1.0.tgz#8a42d50ddbe8f0c30298a3860a2fb3dc246209e1"
-  integrity sha512-JWM/gdAskBsBE6inKG1vudHN/L4tsJsIivbt7SBTHhvv3WNocPMZSZi2SA5NN0p1NI7VZDjX/7usvsF9eWKGpg==
-
 vue-hot-reload-api@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.1.tgz#b2d3d95402a811602380783ea4f566eb875569a2"
@@ -7551,14 +7542,6 @@ vuepress-plugin-container@^2.0.2, vuepress-plugin-container@^2.1.0:
   integrity sha512-5bTtt8PKu9edNoc2Op/sRhCynjT+xKO/VuqwH7ftjdwNZUZMl/ymga7L+5lXCWNOLYAzRHaZAyYV5tY/97cl5g==
   dependencies:
     markdown-it-container "^2.0.0"
-
-vuepress-plugin-disqus-spa@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-disqus-spa/-/vuepress-plugin-disqus-spa-0.1.1.tgz#ee511152687ab229f33e11c4e01f563b791e5402"
-  integrity sha512-s+EsevV4XZMdHvFWxKsBH6ISMvpDsq6ifzOZ7N2na1pHjNONLwI2SVh2QWlDCQJmm7lSCZ2PclMgjzHZi+PtcA==
-  dependencies:
-    jquery "^3.5.1"
-    vue-disqus-spa "^0.1.0"
 
 vuepress-plugin-separate-pages@^0.1.4:
   version "0.1.4"
