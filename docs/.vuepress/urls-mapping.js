@@ -112,5 +112,7 @@ module.exports = {
     "/imunifyav_for_ispmanager.htm/": "/imunifyav_for_ispmanager/",
     "/imunifyav_for_ispmanager.htm": "/imunifyav_for_ispmanager/",
     "/index.html?imunifyav_for_ispmanager.htm": "/imunifyav_for_ispmanager/",
-    "/imunifyav/#features-management-av": "/imunifyav/#features-management"
+    "/imunifyav/#features-management-av": "/imunifyav/#features-management",
+    "/webshield/":"/features/#webshield",
+    "/hosting_panels_specific_settin/":"/#hosting-panels-firewall-rulesets-specific-settings-modsecurity"
 };
