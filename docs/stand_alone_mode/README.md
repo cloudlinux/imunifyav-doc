@@ -1,6 +1,6 @@
 # Stand-alone version of ImunifyAV(+) (non-panel, generic panel integration)
 
-Below you can find the steps to install and run ImunifyAV, in stand-alone mode, or within any hosting panel.
+Below you can find the steps to install and run ImunifyAV(+), in stand-alone mode, or within any hosting panel.
 
 
 #### Requirements
