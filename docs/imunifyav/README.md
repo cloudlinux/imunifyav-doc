@@ -52,7 +52,7 @@ ImunifyAV provides malware scanning features for cPanel and DirectAdmin control 
 * CentOS/RHEL 6,7,8
 * CloudLinux OS 6,7,8
 * Ubuntu 16.04 (LTS only), 18.04, 20.04 (LTS), and 22 (Plesk, DirectAdmin, and standalone)
-* Debian 9 and 10
+* Debian 9 (supported up to Imunify v6.11 (including)), 10, and 11
 * Rocky Linux 8 (cPanel, Plesk, and standalone)
 
 **Virtualization**
@@ -134,26 +134,26 @@ Where `YOUR_KEY` is your activation key or IPL in case of IP-based license.
 
 ### Update Instructions
 
-To upgrade ImunifyAV run the command:
+To upgrade ImunifyAV, run the command:
 
 ```
 yum update imunify-antivirus
 ```
 
-To update ImunifyAV beta version run the command:
+To update ImunifyAV beta version, run the command:
 
 ```
 yum update imunify-antivirus --enablerepo=imunify360-testing
 ```
 
-To update ImunifyAV on Ubuntu/Debian run the command:
+To update ImunifyAV on Ubuntu/Debian, run the command:
 
 ```
 apt-get update
 apt-get install --only-upgrade imunify-antivirus
 ```
 
-To update ImunifyAV **beta** on Ubuntu 16.04 LTS run the command:
+To update ImunifyAV **beta** on Ubuntu 16.04 LTS, run the command:
 
 ```
 echo 'deb https://repo.imunify360.cloudlinux.com/imunify360/ubuntu-testing/16.04/ xenial main'  > /etc/apt/sources.list.d/imunify360-testing.list
@@ -161,7 +161,7 @@ apt-get update
 apt-get install --only-upgrade imunify-antivirus
 ```
 
-To update ImunifyAV **beta** on Ubuntu 18.04 run the command:
+To update ImunifyAV **beta** on Ubuntu 18.04, run the command:
 
 ```
 echo 'deb https://repo.imunify360.cloudlinux.com/imunify360/ubuntu-testing/18.04/ bionic main'  > /etc/apt/sources.list.d/imunify360-testing.list
@@ -169,7 +169,7 @@ apt-get update
 apt-get install --only-upgrade imunify-antivirus
 ```
 
-To update ImunifyAV **beta** on Debian run the command:
+To update ImunifyAV **beta** on Debian, run the command:
 
 ```
 echo 'deb https://repo.imunify360.cloudlinux.com/imunify360/debian-testing/10/ buster main'  > /etc/apt/sources.list.d/imunify360-testing.list
@@ -602,6 +602,15 @@ Go to ImunifyAV → Settings tab to set up the behaviour of ImunifyAV scanner. H
 * **Enable Hyperscan** – this option allows to use the regex matching Hyperscan library in Malware Scanner to greatly improve the scanning speed. Hyperscan requires its own signatures set that will be downloaded from the files.imunify360.com and compiled locally. There are few platform requirements to use this feature:
   * Hyperscan supports Debian, Ubuntu and CentOS/CloudLinux 7 and later.
   * SSE3 processor instructions support. It is quite common nowadays, but may be lacking in virtual environments or in some rather old servers.
+
+#### Crontab files Scanning
+
+This is the mechanism allowing to address Crontab infections with our powerful Malware scanner. Enabled, it will catch any event of Crontab file modification on the fly in seconds and keep them malware-free in real-time.
+
+<img src="/images/crontabScanning.png" border="1px solid grey"/>
+
+The cleanup results are available on the *Malware* and *History* tabs of the Imunify360 interface as for any other type of malware.
+
 
 Tick required checkboxes and click the _Save changes_ button.
 
