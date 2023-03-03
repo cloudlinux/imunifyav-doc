@@ -169,10 +169,34 @@ apt-get update
 apt-get install --only-upgrade imunify-antivirus
 ```
 
-To update ImunifyAV **beta** on Debian, run the command:
+To upgrade ImunifyAV **beta** on Ubuntu 20.04, run the following command:
+
+```
+echo 'deb https://repo.imunify360.cloudlinux.com/imunify360/ubuntu-testing/20.04/ focal main'  > /etc/apt/sources.list.d/imunify360-testing.list
+apt-get update
+apt-get install --only-upgrade imunify-antivirus
+```
+
+To upgrade ImunifyAV **beta** on Debian 9, run the following command:
+
+```
+echo 'deb https://repo.imunify360.cloudlinux.com/imunify360/debian-testing/9/ stretch main'  > /etc/apt/sources.list.d/imunify360-testing.list
+apt-get update
+apt-get install --only-upgrade imunify-antivirus
+```
+
+To upgrade ImunifyAV **beta** on Debian 10, run the following command:
 
 ```
 echo 'deb https://repo.imunify360.cloudlinux.com/imunify360/debian-testing/10/ buster main'  > /etc/apt/sources.list.d/imunify360-testing.list
+apt-get update
+apt-get install --only-upgrade imunify-antivirus
+```
+
+To upgrade ImunifyAV **beta** on Debian 11, run the following command:
+
+```
+echo 'deb https://repo.imunify360.cloudlinux.com/imunify360/debian-testing/11/bullseye main' > /etc/apt/sources.list.d/imunify360-testing.list
 apt-get update
 apt-get install --only-upgrade imunify-antivirus
 ```
