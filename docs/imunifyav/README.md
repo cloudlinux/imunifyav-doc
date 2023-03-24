@@ -217,7 +217,7 @@ If you do not want to wait for the gradual roll-out, you can update ImunifyAV to
 <div class="notranslate">
 
 ```
-wget https://repo.imunify360.cloudlinux.com/defence360/imunify-force-update.sh -O imunify-force-update.sh
+wget -O imunify-force-update.sh https://repo.imunify360.cloudlinux.com/defence360/imunify-force-update.sh -O imunify-force-update.sh
 bash imunify-force-update.sh
 ```
 </div>
