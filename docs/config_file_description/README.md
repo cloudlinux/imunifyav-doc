@@ -28,8 +28,8 @@ In the config file it is possible to set up ImunifyAV(+) configuration. The foll
 <td># defines what part of all files will be rescanned during each scan. For example, if set 10 then 1/10 part of all files will be rescanned. The default value `null` - means "choose frequency based on scan schedule". E.g. month - 1, week - 5, day - 10.</td></tr>
 <tr><td><span class="notranslate">hyperscan: True</span></td>
 <td># allows to use (True) the regex matching Hyperscan library in Malware Scanner to greatly improve the scanning speed. True is the default value. Hyperscan requires its own signatures set that will be downloaded from the files.imunify360.com and compiled locally.<br><b>Platform requirements</b>:<br>* Hyperscan supports Debian, Ubuntu and CentOS/CloudLinux 7 and later.<br>* SSE3 processor instructions support. It is quite common nowadays, but may be lacking in virtual environments or in some rather old servers.</td></tr>
-<tr><td><span class="notranslate">crontabs: False</span></td>
-<td># enable (<span class="notranslate">True</span>) scan of the system and user crontab files for malicious jobs. The default value is <span class="notranslate">False</span>.</td></tr>
+<tr><td><span class="notranslate">crontabs: True</span></td>
+<td># enable (<span class="notranslate">True</span>) scan of the system and user crontab files for malicious jobs. The default value is <span class="notranslate">True</span>.</td></tr>
 <th colspan="2" align="left"><span class="notranslate">ERROR_REPORTING:</span></th></tr>
 <tr><td><span class="notranslate">enable: True</span></td>
 <td># automatically report errors to the Imunify team</td></tr>
