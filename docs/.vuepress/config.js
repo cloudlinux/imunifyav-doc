@@ -9,7 +9,12 @@ const autoMetaOptions = {
   canonical_base: 'https://docs.imunifyav.com/',
 };
 
+const { path } = require('@vuepress/utils')
+
 module.exports = {
+  globalUIComponents: [
+    'Chat'
+  ],
   plugins: [
     ['container', {
       type: 'warning',
@@ -33,7 +38,13 @@ module.exports = {
       }
     ],
     [ 'autometa', autoMetaOptions ],
-    [ 'separate-pages', { alwaysVisibleBlocks: ['#disqus_thread'] } ]
+    [ 'separate-pages', { alwaysVisibleBlocks: ['#disqus_thread'] } ],
+    [
+      '@vuepress/register-components',
+      {
+        componentsDir: path.resolve(__dirname, './components'),
+      },
+    ]
   ],
   configureWebpack: {
     resolve: {
