@@ -34,7 +34,8 @@ export default {
                 colorScheme: '#43a069',
                 boardContentBg: '#f4f4f4',
                 msgBubbleBgBot: '#fff',
-                msgBubbleBgUser: '#43a069'
+                msgBubbleBgUser: '#43a069',
+                inputPlaceholder: 'Ask a new question'
             },
             docName: "imunifyav-doc"
         }
