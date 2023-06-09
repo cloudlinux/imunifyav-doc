@@ -75,7 +75,7 @@ module.exports = {
     },
   },
   theme: "cloudlinux",
-  // theme: '/Users/prefer/src/cloudlinux-doc-theme', // local path
+  // theme: '/Users/nikolaytelepenin/src/cloudlinux-doc-theme', // local path
 
   themeConfig: {
     repo: "cloudlinux/imunifyav-doc",
@@ -85,7 +85,6 @@ module.exports = {
 
     translationSource: 'docs.imunifyav.com',
     defaultURL: "/imunifyav/",
-    submitRequestURL: "https://www.imunify360.com/support-portal/",
     hideHeading: true,
     redirectionMapping: urls,
     sidebarDepth: 2,
@@ -112,9 +111,6 @@ module.exports = {
         label: "English",
         // text for the edit-on-github link
         editLinkText: "Edit this page",
-        tryFree: "Try Imunify360 For Free",
-        avFree: "Get ImunifyAV free",
-        submitRequest: "Contact Support",
         search: "Search",
         // config for Service Worker
         serviceWorker: {
@@ -128,7 +124,27 @@ module.exports = {
           indexName: "imunifyav-unified",
           appId: "0TCNL6CGX8"
         },
-
+        navbarLinks: [
+          {
+            text: "Ask GPT?",
+            event: {
+              type: 'event',
+              name: 'botui-open'
+            }
+          },
+          {
+            text: "Contact Support",
+            url: "https://www.imunify360.com/support-portal/"
+          },
+          {
+            text: "Get ImunifyAV free",
+            url: "https://www.imunify360.com/antivirus/?utm_campaign=ImunifyAV%20docs%20-%20Imunify%20antivirus%20button%20-%20Get%20ImunifyAV%20free&utm_source=docsantivirus&utm_medium=docsantivirus&utm_term=docsantivirus&utm_content=docsantivirus"
+          },
+          {
+            text: "Try Imunify360 For Free",
+            url: "https://trial4.imunify360.com/?utm_campaign=ImunifyAVdocs%20Try%20Imunify360%20button&utm_source=imunifyav&utm_medium=imunifyav&utm_term=imunifyav&utm_content=imunifyav"
+          }
+        ],
         bottomLinks: [
           {
             text: "FAQ",
