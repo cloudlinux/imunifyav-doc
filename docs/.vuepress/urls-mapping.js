@@ -114,5 +114,6 @@ module.exports = {
     "/index.html?imunifyav_for_ispmanager.htm": "/imunifyav_for_ispmanager/",
     "/imunifyav/#features-management-av": "/imunifyav/#features-management",
     "/webshield/":"/features/#webshield",
-    "/hosting_panels_specific_settin/":"/#hosting-panels-firewall-rulesets-specific-settings-modsecurity"
+    "/hosting_panels_specific_settin/":"/#hosting-panels-firewall-rulesets-specific-settings-modsecurity",
+    "/stand_alone_mode/":"https://docs.imunify360.com/imunifyav/stand_alone_mode/"
 };
