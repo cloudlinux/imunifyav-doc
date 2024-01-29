@@ -24,6 +24,15 @@ There are some basic steps to run ImunifyAV as a stand-alone application:
 2. Provide ImunifyAV with an actual list of users in the system
 3. Configure a user authentication process
 
+:::warning Installation without Web UI
+If you do not wish to provide Web UI access to users or admins then the configuration file at `/etc/sysconfig/imunify360/integration.conf` can be set to:
+```
+[paths]
+ui_path =
+```
+And then the usual [installation instructions](https://docs.imunifyav.com/imunifyav/#installation-instructions) can be followed.
+:::
+
 :::warning Warning
 Imunify Web-UI PHP code has to be executed under a non-root user which has access to `/var/run/defence360agent/non_root_simple_rpc.sock`. If it runs in CageFS, you'll need to configure it accordingly.
 :::
